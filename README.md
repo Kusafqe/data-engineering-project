@@ -1,11 +1,17 @@
 # data-engineering-project
 
-The meaning of the code for the project that we will use for our branches is:
+
+## Branching strategy
 
 DEP-XYZ-Name 
 
+## Branch name convention
+
 Where DEP is the code of the project XYZ is the number of the issue and Name is a description(sometimes summarized version) of the name of the issue.
 
+
+
+## Commit message convention 
 
 Commit convention: https://www.conventionalcommits.org/en/v1.0.0/
 
