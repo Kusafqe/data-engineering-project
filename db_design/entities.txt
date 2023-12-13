@@ -1,0 +1,34 @@
+    Customer Entity:
+        Attributes:
+            CustomerID (Primary Key)
+            FirstName
+            LastName
+            Address
+            Phone
+            Email
+
+    Product Entity:
+        Attributes:
+            ProductID (Primary Key)
+            ProductName
+            Description
+            CoverageDetails
+            Premium
+
+    InsurancePolicy Entity:
+        Attributes:
+            PolicyID (Primary Key)
+            CustomerID (Foreign Key referencing Customer)
+            ProductID (Foreign Key referencing Product)
+            PolicyStartDate
+            PolicyEndDate
+            PremiumAmount
+            Status (Active, Expired, etc.)
+
+    RiskAssessment Entity:
+        Attributes:
+            RiskID (Primary Key)
+            CustomerID (Foreign Key referencing Customer)
+            RiskDescription
+            RiskScore
+            AssessmentDate
